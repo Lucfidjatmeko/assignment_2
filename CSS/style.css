@@ -1,0 +1,50 @@
+h1 {
+    color: red;
+    text-align: center;
+    background-color: yellow;
+    padding: 20px;
+    margin-left: 180px;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic ;
+    text-decoration: line-through;
+    
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    text-indent: 10%;
+
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+#apalah{
+    color: blue;
+    background-color: blanchedalmond;
+    padding: 50px
+}
+
+/* a:active{
+    color: blueviolet;
+} */
+
+a:visited{
+    color: aqua;
+}
+
+a:hover{
+    color: black;
+}
+
+table,tr,td{
+    border: 1px solid blueviolet;
+}
+
+ol{
+    list-style: lower-latin;
+}

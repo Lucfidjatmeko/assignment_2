@@ -1,0 +1,124 @@
+body{
+    background-color: #f0f8ff;
+    margin: 0px;
+}
+
+#navbar{
+    background-color: white;
+    padding-inline: 50px;
+}
+
+#navbar{
+    text-align: end;
+}
+h1{
+    margin: 0px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+a{
+    display: inline;
+    padding-inline: 20px;
+    /* background-color: brown */
+}
+
+#biodata{
+    background-color: cadetblue;
+    display: inline-flex;
+}
+
+.biodata2{
+    background-color: cadetblue;
+    /* margin: 50px; */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 95%; 
+    margin: auto;  
+    margin-top: 40px;
+}
+#biodata1{
+    margin-right: 100px;
+    color: white;
+}
+
+img{
+    padding: 10px;
+}
+
+h2{
+    margin-bottom: 0px;
+}
+
+#xx{
+    margin-top: 0px;
+}
+
+p{
+    margin: 10px;
+}
+
+#detail{
+    margin-top: 5px;
+    margin-right: 20px;
+    color: white;
+    display: inline-flex;
+}
+
+.judul{
+    font-weight: bold;
+}
+
+form input {
+    width: 98%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+form button {
+    padding: 10px;
+    background-color: #0a7323;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 80%;
+}
+
+
+
+
+#menu-hp{
+    display: none;
+}
+
+@media screen and (max-width : 400px){
+    #menu-hp{
+        display:contents;
+    }
+    #navbar1{
+        display: none;
+    }
+    #detail{
+        text-align: start;
+    }
+    #biodata{
+        display: block;
+        text-align: center;
+        font-size: 14px;
+    }
+    #biodata2{
+        margin: 10px;
+    }
+    #biodata1{
+        margin: 0px;
+        /* text-align: center; */
+    }
+    
+}
+
+
